@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<>
+    <header>
+        <h1>.:: ACTIVIDAD #3 ::.</h1>
+        <h2>SUBTITULO 2</h2>
+        <h3>SUBTITULO 3</h3>
+        <h4>SUBTITULO 4</h4>
+        <h5>SUBTITULO 5</h5>          
+        <h6>SUBTITULO 6</h6>
+    </header>
+    <hr>
+    <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur perspiciatis <br><br><br> similique, magnam harum deserunt unde illo nostrum quos iure dignissimos possimus voluptates consectetur ea que molestias beatae, doloremque nam nobis explicabo!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nemo dolore cupiditate iure quia quo soluta exercitationem, at error nostrum cum laudantium maiores, eos saepe quis ducimus voluptatibus libero. Voluptas.</p>
+    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laborum autem accusantium labore, reprehenderit optio at exercitationem, cum quisquam quia sunt harum qui ratione et sint sapiente soluta praesentium perferendis.</blockquote>
+    <hr>
+    <img class="perfil" src="imagen1.jpg" alt="">
+    <br><br>
+    <a href="http://youtube.com" target="_blank" rel="noopener noreferrer">ir a mi canal de youtube</a>
+    <hr>
+    <h2>SESION 4</h2>
+    <h3>Listas ordenadas</h3>
+    <ol>
+        <li>PROGRAMACION</li>
+        <LI>MATEMATICAS</LI>
+        <LI>FUTBOL</LI>
+        <LI>PELICULAS</LI>
+    </ol>
+    <h3>Listas no ordenadas</h3>
+    <ul>
+        <li>BASQUETBOL</li>
+        <LI>LEER</LI>
+        <LI>MANEJAR BICICLETA</LI>
+        <LI>VIAJAR</LI>
+    </ul>
+    <h3>Listas de definicion</h3>
+    <dl>
+        <dt>CARRO</dt><dd>Vehiculo</dd>
+        <dt>GAFAS</dt><dd>Lentes de sol</dd>
+        <dt>CUADERNO</dt><dd>Notas</dd>
+        <dt>LAPICERO</dt><dd>Escribir</dd>
+    </dl>
+       <ol class="anidadas">
+         <li>Windows</li>
+         <ul class="Windows">
+            <li>XP</li>
+            <li>7</li>
+            <li>11</li>
+         </ul>
+         <li>Linox</li>
+         <ul class="linox">
+            <li>Debian</li>
+            <li>Ubuntu</li>
+            <li>Fedora</li>
+         </ul>
+         <li>ARM</li>
+         <ul>
+            <li>Los</li>
+            <li>Android</li>
+            <li>Firefox</li>
+            <li>Blackberry</li>
+         </ul>
+       </ol>
+    <h3>TABLAS EN HTML</h3>
+    <h4>Tabla simple</h4>
+    <table> 
+        <tr>
+            <th>No.</th>
+            <th>IDENTIFICACION</th>
+            <th>NOMBRE</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1234</td>
+            <td>CESAR</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2345</td>
+            <td>EDUARDO</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3456</td>
+            <td>PEDRO</td>
+        </tr>
+    </table>
+    <br><br>
+
+
+      <hr>  
+      <h2>SESION 5</h2>
+      <h3>Formularios</h3>
+      <form action="#" method="get" id="formulario1" name="formulario1" >
+        <label for="ident">identificacion: </label>
+        <input type="number" name="ident" id="ident" value="" placeholder="No de identificacion" required>
+        <br>
+        <label for="Nom">Nombre</label>
+        <input type="text" name="Nombre" id="Nom" value="" placeholder="Nombre Completo">
+        <br>
+        <label for="ema">Correo Electr&oacute;nico</label>
+        <input type="email" name="ema" id="ema" value="" placeholder="nombre@dominio.com" required>
+        <br>
+        <label for="clave">Contraseña</label>
+        <input type="password" name="clave" id="clave" value="" required minlength="8" maxlength="16">
+        <hr>
+        <span>Genero</span>
+        <br>
+        <div class="genero">
+            <label for="m">Masculino</label>
+            <input type="radio" name="gen" id="m">
+        </div>
+        <div class="genero">
+            <label for="f">Femenino</label>
+            <input type="radio" name="gen" id="f">
+        </div>
+        <div class="genero">
+            <label for="o">Otros</label>
+            <input type="radio" name="gen" id="o">
+        </div>        
+        <hr>
+        <strong>Deportes</strong>
+        <br>
+        <input type="checkbox" name="futbol" id="futbol" checked>
+        <label for="futbol">Futbol</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="baloncesto" id="baloncesto">
+        <label for="baloncesto">Baloncesto</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="boleibol" id="boleibol">
+        <label for="boleibol">Voleibol</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="tenis" id="tenis">
+        <label for="tenis">Tenis</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <hr>
+        <marquee behavior="" direction=""> !!!! C O M E N T A R I O S !!!!</marquee>
+        <textarea name="comt" id="comt" rows="5"></textarea>
+        <hr>
+        <fieldset title="Listas desplegada">
+            <legend>Lista desplegable</legend>
+            <div>
+                <label for="ciudad"> Donde Vives: </label>
+                <select name="ciudad" id="ciudad">
+                    <option value="">selecione una</option>
+                <option value="1">Valledupar</option>
+                <option value="2">Bogota</option>
+                <option value="3" disabled>Barranquilla</option>
+                <option value="3">pueblo bello</option>
+            </select>
+            </div>
+            <div>
+                <label for="">En que departamento label</label>
+                <select name="" id="">
+                    <optgroup label="region caribe">
+                        <option value="1">Cesar</option>
+                        <option value="2">Atlantico</option>
+                        <option value="3">Magdalena</option>
+                    </optgroup>
+                    <optgroup label="Region andina">
+                        <option value="1">Antioquia</option>
+                        <option value="2">Cauca</option>
+                        <option value="3">Meta</option>
+                    </optgroup>
+                </select>
+            </div>
+        </fieldset>
+        <hr>
+        <section>
+            <h3>botones</h3>
+            <input type="color" name="" id="">
+            <input type="date" name="" id="">
+            <input type="file" name="" id="">
+            <input type="button" value="inicio">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </section>
+        
+        
+            
+    
+
+
+    
+      
+
+
+
+ 
+
+</body>
+</html>
