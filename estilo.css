@@ -58,3 +58,18 @@ table{
     display: inline; 
     margin: auto 15px;
 }
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea,
+   ¨{
+     width: 95%;
+     border-radius: 5px;
+     padding: 15px auto;
+     }
+     select{
+          width: 50%;
+     }
+
+    
